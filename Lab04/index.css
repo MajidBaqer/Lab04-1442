@@ -1,0 +1,43 @@
+h1,h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: darkgreen;
+    font-family: "Palatino Linotype",sans-serif;
+    margin: 2px;
+    line-height: 1.5;
+}
+section,article,aside,footer,nav{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Merriweather",serif;
+    background-image: url(Photo/images.png)
+}
+p,nav,table{
+    font-size: 20px;
+    line-height: 2;
+    color:white;
+    font-family: "Merriweather",serif;
+    
+}
+ol{
+    color: aliceblue;
+    margin: 2px;
+    font-family:"Palatino Linotype",bold; 
+}
+image,nav,text,aside{
+    padding: 2px;
+}
+article, aside, footer, header, menu, nav, section {
+    display: block;
+
+}
+article,section{
+  margin: 0.4px;  
+}
+image,nav,text,aside{
+    padding:1px;
+}
+nav{
+    float: center;
+}
